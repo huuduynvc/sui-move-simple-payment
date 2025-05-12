@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules
+
+# Build outputs (Move & TypeScript)
+/build/
+*.js
+*.js.map
+tsconfig.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+resolution.log
+
+# Environment variables
+.env*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
