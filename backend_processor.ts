@@ -3,8 +3,8 @@ import {
     getFullnodeUrl,
     SuiEvent,
     PaginatedEvents,
-    EventId // Assuming EventId is exported from the root
-} from '@mysten/sui';
+    EventId
+} from '@mysten/sui/client'; // Assuming these client/event related types are here
 
 // --- Configuration ---
 const PACKAGE_ID = '0x88640e3410b1feaefa3e6a56e97699b8efbe4cd1f15297632e17c879b0a532ba';

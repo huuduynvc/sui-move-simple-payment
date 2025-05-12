@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "start": "ts-node client_interaction.ts",
+    "backend": "ts-node backend_processor.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
