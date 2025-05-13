@@ -49,7 +49,7 @@ const SENDER_ADDRESS = keypair.getPublicKey().toSuiAddress();
 console.log(`Signer Address: ${SENDER_ADDRESS}`);
 
 // --- Payment Details ---
-const paymentId = `ts_payment_${Date.now()}`; // Unique payment ID
+const paymentId = `hatcher_1712384_100000000000_1712350_1747102690543`; // Unique payment ID
 const additionalData = 'Data from TS client';
 const paymentAmountMIST = 20000000; // 0.02 SUI in MIST (adjust as needed)
 
